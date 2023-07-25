@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "티스토리 블록 검색 끄기",
+  "description": "티스토리의 블록 검색을 꺼줘요",
+  "version": "1.0",
+  "action": {
+    "default_popup": "hello.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": ["http://*/*","https://*/*"]
+    }
+  ]
+}
