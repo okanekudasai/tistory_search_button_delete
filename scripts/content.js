@@ -1,6 +1,5 @@
 document.addEventListener('mouseup', () => {
-    var d = document.querySelector("#DragSchLayer");
-    if (d) {
-        d.style.display = "none";
+    if (document.querySelector("#DragSchLayer")) {
+        document.querySelector("#DragSchLayer").style.display = "none";
     }
 });
